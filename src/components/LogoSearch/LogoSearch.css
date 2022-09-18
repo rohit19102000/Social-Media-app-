@@ -1,0 +1,41 @@
+.LogoSearch{
+    display: flex;
+    gap: 0.75rem;
+}
+.Search{
+    display: flex;
+    background-color:var(--input-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px;
+}
+.Search>input{
+    background-color:transparent;
+    border:none;
+    outline:none;
+}
+
+.s-icon{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background:linear-gradient(106.23deg,#f99827,#f95f35 100%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 4px;
+    color:white;
+}
+.s-icon:hover{
+    cursor:pointer;
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+}
