@@ -5,3 +5,8 @@
     align-items: center;
     overflow: auto;
 }
+.ProfileCenter{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
