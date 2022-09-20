@@ -5,7 +5,7 @@ import Noti from "../../img/noti.png";
 import Comment from "../../img/comment.png";
 import { UilSetting } from "@iconscout/react-unicons";
 import TrendCard from "../TrendCard/TrendCard";
-import ShareModal from "../ShareMadal/ShareModal";
+import ShareModal from "../ShareModal/ShareModal";
 
 const RightSection = () => {
   const [modalOpened ,setModalOpened] = useState(false);
